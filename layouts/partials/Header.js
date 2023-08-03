@@ -50,12 +50,12 @@ const Header = () => {
         <nav className="navbar container-xl">
           {/* logo */}
           <div className="order-0">
-            <Logo src={logo} />
+            {/* <Logo src={logo} /> */}SPS LOGO
           </div>
 
           <ul
             id="nav-menu"
-            className={`navbar-nav order-2 w-full justify-center md:w-auto md:space-x-2 lg:order-1 lg:flex ${
+            className={`navbar-nav order-2 w-full justify-end md:w-auto md:space-x-2 lg:order-1 lg:flex ${
               !showMenu && "hidden"
             }`}
           >

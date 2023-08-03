@@ -9,41 +9,30 @@
       "url": "/about"
     },
     {
+      "name": "Events",
+      "url": "/events"
+    },
+    {
+      "name": "Research",
+      "url": "/research"
+    },
+    {
       "name": "Blog",
       "url": "/posts"
     },
     {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Terms & Conditions",
-          "url": "/terms-policy"
-        }
-      ]
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Join Us",
+      "url": "/join-us"
     }
   ],
   "footer": [
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Locations",
+      "url": "/location"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
-    },
-    {
-      "name": "Terms & Conditions",
-      "url": "/terms-policy"
+      "name": "Members",
+      "url": "/members"
     }
   ]
 }
