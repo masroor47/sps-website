@@ -29,7 +29,7 @@
   },
 
   "nav_button": {
-    "enable": true,
+    "enable":false,
     "label": "Download Now",
     "link": "https://themefisher.com/products/andromeda-light-nextjs"
   },
