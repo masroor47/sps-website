@@ -1,6 +1,6 @@
 ---
 title: This is a physics event.
-image: /images/blog/nebula-full.png
+image: /images/blog/01.jpg
 author:
   name: Jeremy G
   avatar: /images/author/abdullah.jpg
