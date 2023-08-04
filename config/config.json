@@ -12,7 +12,8 @@
   "settings": {
     "pagination": 6,
     "summary_length": 200,
-    "blog_folder": "posts"
+    "blog_folder": "posts",
+    "events_folder": "events"
   },
 
   "params": {
