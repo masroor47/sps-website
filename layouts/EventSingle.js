@@ -62,7 +62,7 @@ const EventSingle = ({ frontmatter, content, mdxContent, recentEvents }) => {
                   <MDXRemote {...mdxContent} components={shortcodes} />
                 </div>
               </div>
-              {disqus.enable && (
+              {/* {disqus.enable && (
                 <div className="fade row justify-center opacity-0">
                   <div className="lg:col-8">
                     <DiscussionEmbed
@@ -71,12 +71,12 @@ const EventSingle = ({ frontmatter, content, mdxContent, recentEvents }) => {
                     />
                   </div>
                 </div>
-              )}
+              )} */}
             </div>
           </article>
 
           <div className="section mt-16">
-            <h2 className="section-title text-center">Recent Articles</h2>
+            <h2 className="section-title text-center">Recent Events</h2>
             <div className="row justify-center">
               {/* {recentEvents.slice(0, 2).map((event, index) => (
                 <div key={"event-" + index} className="animate mt-16 lg:col-5">
