@@ -30,9 +30,12 @@ const Event = ({ event, i }) => {
           </Link>
         </h2>
         <p className="mt-4">
+            {dateFormat(event.frontmatter.date)} - {event.frontmatter.location}
+        </p>
+        <p className="mt-4">
           {event.content.slice(0, Number(summary_length))}...
         </p>
-        <div className="mt-6 flex items-center">
+        {/* <div className="mt-6 flex items-center">
           <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
             <ImageFallback
               src={event.frontmatter.author.avatar}
@@ -49,7 +52,7 @@ const Event = ({ event, i }) => {
               {dateFormat(event.frontmatter.date)} - {readingTime(event.content)}
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

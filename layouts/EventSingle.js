@@ -37,7 +37,7 @@ const EventSingle = ({ frontmatter, content, mdxContent, recentEvents }) => {
               </div>
               <div className="lg:col-8">
                 {markdownify(title, "h1", "h2 mt-6")}
-                <div className="mt-6 flex items-center">
+                {/* <div className="mt-6 flex items-center">
                   <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
                     <ImageFallback
                       src={author.avatar}
@@ -52,6 +52,11 @@ const EventSingle = ({ frontmatter, content, mdxContent, recentEvents }) => {
                       {dateFormat(date)} - {readingTime(content)}
                     </p>
                   </div>
+                </div> */}
+                <div className="mt-6 flex">
+                    <p className="font-mdeium text-dark">
+                        {dateFormat(date)} - 
+                    </p>
                 </div>
                 <div className="content mt-16 mb-16 text-left">
                   <MDXRemote {...mdxContent} components={shortcodes} />

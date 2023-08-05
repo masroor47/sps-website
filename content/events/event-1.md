@@ -1,10 +1,11 @@
 ---
 title: This is a physics event.
 image: /images/blog/01.jpg
-author:
-  name: Jeremy G
-  avatar: /images/author/abdullah.jpg
+# author:
+#   name: Jeremy G
+#   avatar: /images/author/abdullah.jpg
 date: 2022-04-04T05:00:00Z
+location: SB 330
 draft: false
 ---
 
