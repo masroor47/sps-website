@@ -12,7 +12,7 @@ import ImageFallback from "./components/ImageFallback";
 import Event from "./partials/Event";
 
 const EventSingle = ({ frontmatter, content, mdxContent, recentEvents }) => {
-  let { description, title, date, image, author } = frontmatter;
+  let { description, title, date, location, image, author } = frontmatter;
   description = description ? description : content.slice(0, 120);
 
   const { disqus } = config;
@@ -55,7 +55,7 @@ const EventSingle = ({ frontmatter, content, mdxContent, recentEvents }) => {
                 </div> */}
                 <div className="mt-6 flex">
                     <p className="font-mdeium text-dark">
-                        {dateFormat(date)} - 
+                        {dateFormat(date)} - {location ? location : 'Location not found'}
                     </p>
                 </div>
                 <div className="content mt-16 mb-16 text-left">
